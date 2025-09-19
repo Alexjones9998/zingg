@@ -21,3 +21,16 @@ Here are some performance numbers you can use to determine the appropriate hardw
 * 80m records with 8-10 fields took less than 2 hours on 1 driver (128 GB RAM, 32 cores), 8 workers (224 GB RAM, 64 cores). This is a user-reported stat without any optimization.
 
 If you have up to a few million records, it may be easier to run Zingg on a single machine in Spark local mode.
+
+Total records: 77,724,420
+
+Cluster: Driver: Standard_E32d_v4 · Workers: Standard_E32d_v4 · 2-6 workers (32 CPU, 256 GBs Memory)
+
+Databricks Runtime: 14.3 LTS
+
+Spark: 3.5.0
+
+Scala: 2.12
+
+Zingg: 0.4.0
+Model: 99 Matches, 168 Non-Matches, 0 Unsure
