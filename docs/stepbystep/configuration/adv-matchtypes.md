@@ -27,7 +27,7 @@ Here is the structure of the json:
 ]   
 </code></pre>
 
-Each line here represents common nicknames which represent the same name.&#x20;
+Each line here represents common [nicknames](https://www.zingg.ai/product/features/match-on-nicknames) which represent the same name.&#x20;
 
 To use this mapping within Zingg, define the field's match type as `MAPPING_<filename>` which in our case would be `mapping_nicknames`
 
@@ -43,7 +43,7 @@ To use this mapping within Zingg, define the field's match type as `MAPPING_<fil
 
 ### Transform and Match
 
-The `MAPPING` match type can also be used to transform and normalise categorical data. Let us say different data sources have different representations of gender. In one, gender is represented as M and F, in another it is noted as Male, Female and in the third as 1 and 2. Instead of transforming the gender column beforehand, one could create a mapping json called `gender.json` .&#x20;
+The `MAPPING` match type can also be used to [transform and normalise](https://www.zingg.ai/product/features/transform-and-match) categorical data. Let us say different data sources have different representations of gender. In one, gender is represented as M and F, in another it is noted as Male, Female and in the third as 1 and 2. Instead of transforming the gender column beforehand, one could create a mapping json called `gender.json` .&#x20;
 
 <pre><code><strong>[  
 </strong>  ["M", "Male", "1"],
